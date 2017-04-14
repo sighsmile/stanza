@@ -74,7 +74,7 @@ class AllTest(Command):
 setup(
     name='stanza',
     version='0.2',
-    packages=['stanza', 'stanza.text', 'stanza.monitoring', 'stanza.util'],
+    packages=['stanza', 'stanza.text', 'stanza.monitoring', 'stanza.util', 'stanza.corenlp', 'stanza.ml', 'stanza.cluster', 'stanza.research'],
     url='https://github.com/stanfordnlp/stanza',
     license='MIT',
     author='Stanford NLP',
